@@ -1,0 +1,40 @@
+{
+  "detection": {
+    "confidence_threshold": 0.6,
+    "model_name": "yolov8n.pt",
+    "camera_index": 1,
+    "frame_width": 640,
+    "frame_height": 480
+  },
+  "audio": {
+    "sound_files": null,
+    "playback_strategy": "smart_rotation",
+    "cooldown_seconds": 3.0,
+    "volume": 0.8,
+    "prevent_overlap": true,
+    "max_audio_duration": 10.0,
+    "interrupt_on_new_detection": false,
+    "detection_gap_threshold": 2.0
+  },
+  "system": {
+    "fps_report_interval": 60,
+    "log_level": "INFO",
+    "log_file": "hackathon_event.log",
+    "max_log_size_mb": 50,
+    "backup_log_count": 3
+  },
+  "monitoring": {
+    "enable_performance_tracking": true,
+    "memory_alert_threshold_mb": 500,
+    "fps_alert_threshold": 5,
+    "detection_timeout_seconds": 30
+  },
+  "alerts": {
+    "enable_email_alerts": false,
+    "email_recipient": "",
+    "smtp_server": "",
+    "smtp_port": 587,
+    "smtp_username": "",
+    "smtp_password": ""
+  }
+}
